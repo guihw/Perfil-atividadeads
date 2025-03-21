@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Guilherme</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .info-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+  
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Meu Perfil</h1>
+    </header>
+
+    <div class="container mt-4">
+        <div class="row">
+            
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" 
+                         class="profile-img mx-auto mt-3" alt="Foto de Perfil">
+                    <div class="card-body">
+                        <h4 class="card-title">Guilherme</h4>
+                        <p class="text-muted">Estudante ADS</p>
+                        <hr>
+                        <div class="info-item"><strong>Idade:</strong> <span>20 anos</span></div>
+                        <div class="info-item"><strong>Localização:</strong> <span>Maringá, Paraná</span></div>
+                        <div class="info-item"><strong>Email:</strong> <span>guilh.asantos127@gmail.com</span></div>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="col-md-8">
+                <h3 class="mb-3">Atividades Recentes</h3>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Atividade</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>20/03/2025</td>
+                            <td>Atividade Prática 1</td>
+                            <td class="text-success">Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>18/03/2025</td>
+                            <td>Atividade Prática 2</td>
+                            <td class="text-warning">Em andamento</td>
+                        </tr>
+                        <tr>
+                            <td>15/03/2025</td>
+                            <td>AEP</td>
+                            <td class="text-danger">Pendente</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+      
+        <div class="row mt-4">
+            <div class="col-md-8 offset-md-2">
+                <h3 class="text-center">Entre em Contato</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="mensagem" rows="3" placeholder="Escreva sua mensagem"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; 2025 Guilherme - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

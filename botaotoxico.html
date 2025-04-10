@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pedido de namoro</title>
+  <style>
+    body{
+    font-family: Arial;
+      background-color: #f0f8ff;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+      font-size: 2em;
+    }
+
+    .buttons {
+      position: relative;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    #sim {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    #nao {
+      position: absolute;
+      background-color: #f44336;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+  <h1>Você quer namorar comigo?</h1>
+  
+  <div class="buttons">
+    <button id="sim">Sim</button>
+    <button id="nao">Não</button>
+  </div>
+
+  </div>
+
+  <script>
+    const btnNao = document.getElementById("nao");
+
+    btnNao.addEventListener("mouseenter", () => {
+      const maxX = window.innerWidth - btnNao.offsetWidth;
+      const maxY = window.innerHeight - btnNao.offsetHeight;
+
+      const randomX = Math.floor(Math.random() * maxX);
+      const randomY = Math.floor(Math.random() * maxY);
+
+      btnNao.style.left = `${randomX}px`;
+      btnNao.style.top = `${randomY}px`;
+    });
+  </script>
+
+</body>
+</html>

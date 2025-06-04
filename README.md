@@ -1,13 +1,15 @@
 # 📚 Trabalhos do 3º Semestre – Análise e Desenvolvimento de Sistemas
 Este repositório reúne atividades desenvolvidas durante o 3º semestre do curso de Análise e Desenvolvimento de Sistemas. Os projetos envolvem HTML, CSS, JavaScript e Bootstrap, aplicando conceitos de front-end, interatividade com o usuário e manipulação de código existente.
 
-Tetris: https://guihw.github.io/Perfil-atividadeads/tetris
-Perfil: https://guihw.github.io/Perfil-atividadeads/profile
-Botão Tóxico: https://guihw.github.io/Perfil-atividadeads/botaotoxico
+Tetris: https://guihw.github.io/Perfil-atividadeads/tetris <br/>
+Perfil: https://guihw.github.io/Perfil-atividadeads/profile <br/>
+Botão Tóxico: https://guihw.github.io/Perfil-atividadeads/botaotoxico <br/>
+
+
 
 ## 📁 Projetos incluídos
 ### 1. 👤 Perfil Pessoal com Bootstrap
-Link demo: Perfil: https://guihw.github.io/Perfil-atividadeads/profile
+Link demo: Perfil: https://guihw.github.io/Perfil-atividadeads/profile <br/>
 Um site simples e responsivo desenvolvido com Bootstrap, contendo:
 
 ✅ Atividades recentes
@@ -19,7 +21,7 @@ Um site simples e responsivo desenvolvido com Bootstrap, contendo:
 O objetivo foi aplicar o uso de componentes prontos do Bootstrap e praticar a organização de conteúdo em páginas profissionais.
 
 ### 2. 😂 Página "Quer namorar comigo?"
-Link demo: https://guihw.github.io/Perfil-atividadeads/botaotoxico
+Link demo: https://guihw.github.io/Perfil-atividadeads/botaotoxico <br/>
 Uma página interativa e divertida com a seguinte proposta:
 
 💘 Um botão "Sim"
@@ -29,7 +31,7 @@ Uma página interativa e divertida com a seguinte proposta:
 A atividade explora eventos de mouse e manipulação dinâmica do DOM para criar uma interação inesperada e bem-humorada com o usuário.
 
 ### 3. 🎮 Jogo Tetris Modificado
-Link demo: https://guihw.github.io/Perfil-atividadeads/tetris
+Link demo: https://guihw.github.io/Perfil-atividadeads/tetris <br/>
 Versão modificada de um jogo Tetris pré-existente. As alterações incluem:
 
 🔄 Inclusão de múltiplas novas figuras
